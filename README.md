@@ -41,52 +41,93 @@ Data Source → S3 → AWS Glue → Transformation → Redshift → Visualizatio
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
+
+```bash
 care-plus-data-AWS/
 │── data/        # Raw & processed datasets
-│── scripts/     # Python scripts for ETL
+│── scripts/     # Python ETL scripts
 │── notebooks/   # Jupyter notebooks
-│── aws/         # AWS configuration files
-│── outputs/     # Final results
+│── aws/         # AWS configs
+│── outputs/     # Final outputs
 │── README.md
-⚙️ Installation & Setup
-1️⃣ Clone Repository
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 🔹 Clone Repository
+
+```bash
 git clone https://github.com/mohitdubey991735/care-plus-data-AWS.git
 cd care-plus-data-AWS
-2️⃣ Install Requirements
+```
+
+### 🔹 Install Dependencies
+
+```bash
 pip install -r requirements.txt
-3️⃣ Configure AWS
+```
+
+### 🔹 Configure AWS
+
+```bash
 aws configure
+```
 
 Enter your AWS Access Key, Secret Key, and Region.
 
-▶️ How to Run
+---
+
+## ▶️ How to Run
+
+```bash
 python scripts/main.py
-📊 Features
-✅ Data Cleaning & Validation
-✅ Automated ETL Pipeline
-✅ AWS Cloud Integration
-✅ Scalable Data Processing
-✅ Real-world Dataset Handling
-📸 Sample Output
+```
+
+---
+
+## 🚀 Features
+
+- Data Cleaning & Validation  
+- Automated ETL Pipeline  
+- AWS Cloud Integration  
+- Scalable Data Processing  
+- Real-world Dataset Handling  
+
+---
+
+## 📸 Sample Output
 
 Add your screenshots here
 
-🚀 Future Improvements
-🔹 Real-time streaming (Kafka)
-🔹 Dashboard integration (Power BI / Tableau)
-🔹 Docker deployment
-🔹 Machine Learning integration
-🤝 Contributing
+---
+
+## 🚀 Future Improvements
+
+- Real-time streaming (Kafka)  
+- Dashboard (Power BI / Tableau)  
+- Docker deployment  
+- Machine Learning models  
+
+---
+
+## 🤝 Contributing
 
 Contributions are welcome!
 
-Fork the repository
-Create a new branch
-Commit your changes
-Open a Pull Request
-📧 Contact
+1. Fork the repository  
+2. Create a new branch  
+3. Commit changes  
+4. Open a Pull Request  
 
-Mohit Dubey
-📩 your-email@example.com
-🔗 LinkedIn: https://linkedin.com
+---
+
+## 📬 Contact
+
+Mohit Dubey  
+your-email@example.com  
+https://linkedin.com  
+
+---
