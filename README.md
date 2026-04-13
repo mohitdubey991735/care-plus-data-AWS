@@ -41,60 +41,52 @@ Data Source → S3 → AWS Glue → Transformation → Redshift → Visualizatio
 
 ---
 
-## 📂 Project Structure
-
-
+📁 Project Structure
 care-plus-data-AWS/
-│── data/ # Raw and processed data
-│── scripts/ # Python scripts
-│── notebooks/ # Jupyter notebooks
-│── aws/ # AWS configuration files
-│── outputs/ # Final outputs
+│── data/        # Raw & processed datasets
+│── scripts/     # Python scripts for ETL
+│── notebooks/   # Jupyter notebooks
+│── aws/         # AWS configuration files
+│── outputs/     # Final results
 │── README.md
-
-
----
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the repository
-
+⚙️ Installation & Setup
+1️⃣ Clone Repository
 git clone https://github.com/mohitdubey991735/care-plus-data-AWS.git
 cd care-plus-data-AWS
-2️⃣ Install dependencies
+2️⃣ Install Requirements
 pip install -r requirements.txt
 3️⃣ Configure AWS
-Set up AWS CLI
 aws configure
-Add your credentials
+
+Enter your AWS Access Key, Secret Key, and Region.
+
 ▶️ How to Run
 python scripts/main.py
 📊 Features
 ✅ Data Cleaning & Validation
 ✅ Automated ETL Pipeline
-✅ AWS Integration
-✅ Scalable Architecture
-✅ Real-world dataset handling
+✅ AWS Cloud Integration
+✅ Scalable Data Processing
+✅ Real-world Dataset Handling
 📸 Sample Output
 
-(Add screenshots here)
+Add your screenshots here
 
-📈 Future Improvements
-🔹 Add real-time streaming (Kafka)
-🔹 Build dashboard (Power BI)
-🔹 Deploy using Docker
-🔹 Add ML models
+🚀 Future Improvements
+🔹 Real-time streaming (Kafka)
+🔹 Dashboard integration (Power BI / Tableau)
+🔹 Docker deployment
+🔹 Machine Learning integration
 🤝 Contributing
 
 Contributions are welcome!
 
-Fork the repo
-Create a branch
-Commit changes
+Fork the repository
+Create a new branch
+Commit your changes
 Open a Pull Request
 📧 Contact
 
-👤 Mohit Dubey
+Mohit Dubey
 📩 your-email@example.com
-
-🔗 LinkedIn Profile
+🔗 LinkedIn: https://linkedin.com
