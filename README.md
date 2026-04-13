@@ -98,12 +98,6 @@ python scripts/main.py
 
 ---
 
-## 📸 Sample Output
-
-Add your screenshots here
-
----
-
 ## 🚀 Future Improvements
 
 - Real-time streaming (Kafka)  
@@ -127,7 +121,7 @@ Contributions are welcome!
 ## 📬 Contact
 
 Mohit Dubey  
-your-email@example.com  
-https://linkedin.com  
+Mohitdubey991735@gmail.com  
+www.linkedin.com/in/mohit-dubey-bb1a31290
 
 ---
